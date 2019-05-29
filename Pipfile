@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+networkx = "*"
+scipy = "*"
+plyfile = "*"
+rdflib = "*"
+pandas = "*"
+unknown = {path = "."}
+
+[dev-packages]
+neovim = "*"
+mypy = "*"
+pylint = "*"
+"flake8" = "*"
+ipython = "*"
+yapf = "*"
+autopep8 = "*"
+jedi = "*"
+torch-geometric = "*"
+python-language-server = "*"
+unknown = {editable = true,path = "."}
+
+[requires]
+python_version = "3.6"
