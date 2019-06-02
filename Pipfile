@@ -9,7 +9,6 @@ scipy = "*"
 plyfile = "*"
 rdflib = "*"
 pandas = "*"
-unknown = {path = "."}
 
 [dev-packages]
 neovim = "*"
@@ -23,6 +22,12 @@ jedi = "*"
 torch-geometric = "*"
 python-language-server = "*"
 unknown = {editable = true,path = "."}
+tf-nightly-2-0-preview = "*"
+matplotlib = "*"
+pygraphviz = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
