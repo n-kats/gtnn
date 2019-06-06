@@ -25,6 +25,8 @@ unknown = {editable = true,path = "."}
 tf-nightly-2-0-preview = "*"
 matplotlib = "*"
 pygraphviz = "*"
+opencv-python = "*"
+opencv-contrib-python = "*"
 
 [requires]
 python_version = "3.6"
